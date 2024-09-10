@@ -11,6 +11,7 @@ namespace WebApplication1.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
+        
         private readonly ApplicationDbContext _context;
         private readonly IConfiguration _configuration;
 
